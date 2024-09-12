@@ -29,8 +29,10 @@ expenses effectively.
 Distribution Network Analysis in the energy industry refers to the process of studying and 
 evaluating the electrical distribution networks that deliver electricity from high-voltage 
 transmission lines to end-users, such as homes, businesses, and industrial facilities.
+
 This analysis becomes even more critical with the rise of EVs, as it transforms the energy 
 landscape.
+
 Top Five Reasons for the Project's Significance:
 1. Customer Retention: Maintaining a reliable EV charging experience is essential for 
 retaining existing customers who have embraced EVs.
@@ -56,7 +58,7 @@ maximizes efficiency, minimizes costs, and ensures grid reliability.
 
 This project contains 3 dataset as follows:
 1. Electric Vehicle (EV) Distribution Data:
-   a. Timestamp: Date and time of data points.
+   • Timestamp: Date and time of data points.
    • Geographical Area: Location of each data point.
    • Customer Type: Categorization of customers (e.g., residential, commercial).
    • Electricity Consumption (kWh): Amount of electricity consumed.
@@ -65,15 +67,16 @@ This project contains 3 dataset as follows:
    • EV Type: Type of electric vehicles.
    • Charging Habit: Charging behavior (e.g., daily, weekly).
    • Number of EVs: Count of electric vehicles.
-3. Geospatial Data (Distribution Network Geographies):
-• Substation ID: Unique identifier for distribution substations.
-• Substation Location: coordinates of substations. Geographic
-• Transmission Line Capacity (MW): Capacity of transmission lines.
-4. Weather Data:
-• Timestamp: Date and time of weather data.
-• Temperature temperature. (°C): Ambient
-• Precipitation (mm): amount (rainfall or snowfall). Precipitation
-• Weather Conditions: Categorization of weather conditions (e.g., Clear, Rainy).
+2. Geospatial Data (Distribution Network Geographies):
+   • Substation ID: Unique identifier for distribution substations.
+   • Substation Location: Geographic coordinates of substations.
+   • Transmission Line Capacity (MW): Capacity of transmission lines.
+3. Weather Data:
+   • Timestamp: Date and time of weather data.
+   • Temperature temperature. (°C): Ambient
+   • Precipitation (mm): amount (rainfall or snowfall). Precipitation
+   • Weather Conditions: Categorization of weather conditions (e.g., Clear, Rainy).
+
 NB: Substation_ID column: Will be a secondary key in EV Distribution dataset and weather 
 dataset and a primary key in Geospatial dataset
 
