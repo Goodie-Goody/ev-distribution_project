@@ -42,7 +42,8 @@ contributing to reduced greenhouse gas emissions.
 planning is vital to avoid penalties and ensure operational excellence.
 5. Technological Innovation: Embracing data analytics empowers PowerCharge Utilities to 
 stay at the forefront of technological innovation in the energy sector.
-Aim of the Project
+
+## Aim of the Project
 The project aims to achieve the following objectives:
 1. Assess Network Capacity: Conduct a comprehensive analysis of the distribution 
 network's current capacity to handle increased load from EV charging stations.
@@ -55,7 +56,7 @@ maximizes efficiency, minimizes costs, and ensures grid reliability.
 
 This project contains 3 dataset as follows:
 1. Electric Vehicle (EV) Distribution Data:
-   • Timestamp: Date and time of data points.
+   a. Timestamp: Date and time of data points.
    • Geographical Area: Location of each data point.
    • Customer Type: Categorization of customers (e.g., residential, commercial).
    • Electricity Consumption (kWh): Amount of electricity consumed.
