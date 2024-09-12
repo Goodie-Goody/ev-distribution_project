@@ -55,28 +55,28 @@ maximizes efficiency, minimizes costs, and ensures grid reliability.
 
 This project contains 3 dataset as follows:
 1. Electric Vehicle (EV) Distribution Data:
-• Timestamp: Date and time of data points.
-• Geographical Area: Location of each data point.
-• Customer Type: Categorization of customers (e.g., residential, commercial).
-• Electricity Consumption (kWh): Amount of electricity consumed.
-• EV Charging Station Location:
-• Latitude and longitude of charging stations.
-• EV Charging Station Specifications: Details about charging stations.
-• EV Type: Type of electric vehicles.
-• Charging Habit: Charging behavior (e.g., daily, weekly).
-• Number of EVs: Count of electric vehicles.
-2. Geospatial Data (Distribution Network Geographies):
+   • Timestamp: Date and time of data points.
+   • Geographical Area: Location of each data point.
+   • Customer Type: Categorization of customers (e.g., residential, commercial).
+   • Electricity Consumption (kWh): Amount of electricity consumed.
+   • EV Charging Station Location: Latitude and longitude of charging stations.
+   • EV Charging Station Specifications: Details about charging stations.
+   • EV Type: Type of electric vehicles.
+   • Charging Habit: Charging behavior (e.g., daily, weekly).
+   • Number of EVs: Count of electric vehicles.
+3. Geospatial Data (Distribution Network Geographies):
 • Substation ID: Unique identifier for distribution substations.
 • Substation Location: coordinates of substations. Geographic
 • Transmission Line Capacity (MW): Capacity of transmission lines.
-3. Weather Data:
+4. Weather Data:
 • Timestamp: Date and time of weather data.
 • Temperature temperature. (°C): Ambient
 • Precipitation (mm): amount (rainfall or snowfall). Precipitation
 • Weather Conditions: Categorization of weather conditions (e.g., Clear, Rainy).
 NB: Substation_ID column: Will be a secondary key in EV Distribution dataset and weather 
 dataset and a primary key in Geospatial dataset
-Data Analytics Project Scope
+
+## Data Analytics Project Scope
 1. Exploratory Data Analysis: Conduct EDA to gain insights into electricity consumption 
 patterns and network performance.
 2. Capacity Assessment: Utilize historical data to assess the current distribution network's 
